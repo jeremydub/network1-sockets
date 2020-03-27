@@ -8,7 +8,7 @@ moment où ce dernier coupe la connexion.
 int main() {
     int sock = create_client_local_tcp_socket(8888);
 
-    if(socket < 0){
+    if(sock < 0){
         printf("Could not create/connect socket\n");
         return 1;
     }
