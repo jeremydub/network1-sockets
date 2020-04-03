@@ -3,3 +3,7 @@
 Exemple pour 'server1' :
 
     gcc -o server1 server1.c simple-socket.c
+
+Exemple pour 'http-request' :
+
+    gcc -o http-request http-request.c http-parser.c
